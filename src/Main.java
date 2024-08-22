@@ -8,9 +8,9 @@ public class Main {
         personBook.addPerson(new Person(4, "danila", 87362347890L, 1));
 
         System.out.println(personBook.findPersonByNumber(1));
-        System.out.println(personBook.findPersonsByPhone(87362347890L));
+        System.out.println(personBook.findPhonesByName("ivan"));
         System.out.println(personBook.findPersonsByExperience(3));
-        personBook.fi
+        System.out.println(personBook.getPersonList());
     }
 
 
